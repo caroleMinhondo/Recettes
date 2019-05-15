@@ -7,17 +7,16 @@ public class IngredientSelectionnee implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
 	private Integer id;
-	private double quantite;
+	private int quantite;
 	private String unite;
 	private String nom;
 	
-	
-	
 	public IngredientSelectionnee() {
 		super();
+		// TODO Auto-generated constructor stub
 	}
 
-	public IngredientSelectionnee(Integer id, double quantite, String unite, String nom) {
+	public IngredientSelectionnee(Integer id, int quantite, String unite, String nom) {
 		super();
 		this.id = id;
 		this.quantite = quantite;
@@ -33,11 +32,11 @@ public class IngredientSelectionnee implements Serializable{
 		this.id = id;
 	}
 
-	public double getQuantite() {
+	public int getQuantite() {
 		return quantite;
 	}
 
-	public void setQuantite(double quantite) {
+	public void setQuantite(int quantite) {
 		this.quantite = quantite;
 	}
 
@@ -62,6 +61,8 @@ public class IngredientSelectionnee implements Serializable{
 		return "IngredientSelectionnee [id=" + id + ", quantite=" + quantite + ", unite=" + unite + ", nom=" + nom
 				+ "]";
 	}
+	
+	
 	
 	
 }

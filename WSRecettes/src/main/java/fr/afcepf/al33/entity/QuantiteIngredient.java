@@ -26,7 +26,7 @@ public class QuantiteIngredient implements Serializable{
 	private Integer id;
 	
 	@Column(name="quantite")
-	private double quantite;
+	private int quantite;
 	
 	@Column(name="unite")
 	private String unite;
@@ -43,7 +43,7 @@ public class QuantiteIngredient implements Serializable{
 		super();
 	}
 
-	public QuantiteIngredient(Integer id, double quantite, String unite, Recette recette, Ingredient ingredient) {
+	public QuantiteIngredient(Integer id, int quantite, String unite, Recette recette, Ingredient ingredient) {
 		super();
 		this.id = id;
 		this.quantite = quantite;
@@ -60,11 +60,11 @@ public class QuantiteIngredient implements Serializable{
 		this.id = id;
 	}
 
-	public double getQuantite() {
+	public int getQuantite() {
 		return quantite;
 	}
 
-	public void setQuantite(double quantite) {
+	public void setQuantite(int quantite) {
 		this.quantite = quantite;
 	}
 

@@ -70,6 +70,7 @@ public class PublicRecetteRest
 		}
 	}
 	
+	
 	@Autowired //injection le dao (temporairement) 
 	private RecetteDao recetteDao;
 	
@@ -89,14 +90,22 @@ public class PublicRecetteRest
 	public List<RecetteSelectionnee> selectionner(@RequestParam(name="listeArticle",required=false)List<String> listeArticle)
 				
 	{
-		for (String art : listeArticle )
+		System.out.println("lecture du get 11");
+		
+		if(listeArticle!=null) 
 		{
-			System.out.println("article = "+art);
+			System.out.println("lecture du get 12");
+			for (String art : listeArticle )
+			{
+				System.out.println("article = "+art);
+			}
 		}
-			
+		System.out.println("lecture du get 22");
+		
 		List<Recette> recettes = new ArrayList<Recette>();
 		
-		if (listeArticle!=null)
+		
+		if(listeArticle!=null)
 		{
 			System.out.println("passage 1");
 			recettes = RecetteASelectionnerSurArticles(listeArticle);
@@ -117,9 +126,11 @@ public class PublicRecetteRest
 			//mise en forme étape recette
 			List<EtapeRecette> etapeRecettes = rec.getEtapeRecettes();
 			List<EtapeRecetteSelectionnee> EtapeRecetteSelectionnees = new ArrayList<EtapeRecetteSelectionnee>();
+			int noEtape = 0;
 			for (EtapeRecette etapeRecette : etapeRecettes)
 			{
-				EtapeRecetteSelectionnee etapeRecetteSelectionnee = new EtapeRecetteSelectionnee(etapeRecette.getId(), etapeRecette.getEtape());
+				noEtape++;
+				EtapeRecetteSelectionnee etapeRecetteSelectionnee = new EtapeRecetteSelectionnee(noEtape, etapeRecette.getEtape());
 				EtapeRecetteSelectionnees.add(etapeRecetteSelectionnee);
 			}
 			
@@ -189,14 +200,14 @@ public class PublicRecetteRest
 							if (recetteASelectionner.getIdRecette()==quantiteIngredient.getRecette().getId()) 
 							{
 								System.out.println("passage 1.1");
-								recetteASelectionner.setNbreOccurence(recetteASelectionner.getNbreOccurence()+1);
+								recetteASelectionner.setNbreOccurence(recetteASelectionner.getNbreOccurence()-1);
 								comptabilise=1;
 							} 
 						}
 						if (comptabilise==0) 
 						{
 							System.out.println("passage 1.2");
-							RecetteASelectionner recetteASelectionner = new RecetteASelectionner(1,quantiteIngredient.getRecette().getId()); 
+							RecetteASelectionner recetteASelectionner = new RecetteASelectionner(9999,quantiteIngredient.getRecette().getId()); 
 							recetteASelectionners.add(recetteASelectionner);
 						}
 					}

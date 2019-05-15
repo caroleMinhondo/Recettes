@@ -44,11 +44,11 @@ public class RecetteSelectionnee implements Serializable{
 		this.nom = nom;
 	}
 
-	public String getPhoto() {
+	public String getImageMini() {
 		return imageMini;
 	}
 
-	public void setPhoto(String imageMini) {
+	public void setImageMini(String imageMini) {
 		this.imageMini = imageMini;
 	}
 
