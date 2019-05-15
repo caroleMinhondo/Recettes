@@ -110,8 +110,8 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(14,3,'litres ',2,51);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(15,1,'pincée',2,33);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(16,1,'pincée',2,34);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(17,4,'',3,26);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(18,2,'',3,17);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(17,4,'',3,25);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(18,2,'',3,16);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(19,3,'',3,2);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(20,1,'',3,14);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(21,5,'',3,35);
@@ -125,10 +125,10 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(29,1,'',4,5);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(30,1,'feuille',4,13);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(31,3,'',4,14);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(32,1,'',4,17);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(32,1,'',4,16);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(33,1,'botte',4,20);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(34,1,'',4,22);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(35,500,'grammes',4,26);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(35,500,'grammes',4,25);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(36,1,'branche',4,30);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(37,2,'',4,35);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(38,1,'pincée',4,33);
