@@ -30,7 +30,7 @@ INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(21,'Servir la viande coup�
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(22,'Eplucher vos légumes. Faire revenir les blancs de poireaux coupés en tronçons et l''oignon hâché dans du beurre dans une cocotte.',5);
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(23,'Ajouter progressivement en remuant les pommes de terre en petits cubes, la carotte en rondelle, le persil hâché.',5);
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(24,'Recouvrir d''eau et y ajouter le cube. Laisser mijoter (lorsque la carotte est cuite, c''est bon!)',5);
-INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(25,'Pressez tous les fruit et passez-les à la passette pour enlever la pulpe ou laissez-le tel quel.',6);
+INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(25,'Pressez tous les fruits et passez-les à la passette pour enlever la pulpe ou laissez-le tel quel.',6);
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(26,'Mixez les poires avec le jus de citron.',7);
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(27,'Taillez des zestes dans les écorces des citrons verts. Blanchissez les zestes pour cela faites bouillir un peu d''eau dans une casserole, versez-y les zestes et faites bouillir 30 sec. Rincez immédiatement à l''eau froide. Recommencez le processus. Réservez au congélateur.',7);
 INSERT INTO Etape_Recette(id,etape,recette_id) VALUES(28,'Faites cuire à feu doux les ¾ du sirop de poire avec la badiane et les feuilles de menthe pendant 5 min. Passez le jus et laissez tiédir. Ajoutez-y les poires mixées.',7);
@@ -114,11 +114,11 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(18,2,'',3,16);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(19,3,'',3,2);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(20,1,'',3,14);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(21,5,'',3,35);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(22,1,'cuillère',3,36);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(21,2,'',3,35);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(22,1,'cuillère à café',3,36);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(23,4,'morceaux',3,37);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(24,1,'cuillère',3,38);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(25,1,'cuillère',3,39);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(24,1,'cuillère à café',3,38);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(25,1,'cuillère à café',3,39);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(26,10,'centilitres',3,40);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(27,3,'',4,2);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(28,1,'',4,3);
@@ -140,7 +140,7 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(44,3,'',5,25);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(45,1,'',5,16);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(46,1,'',5,2);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(47,2,'cuillères',5,44);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(47,2,'cuillères à soupe',5,44);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(48,1,'',6,7);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(49,1,'',6,8);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(50,1,'',6,18);
@@ -154,6 +154,6 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(58,60,'grammes',8,37);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(59,120,'grammes',8,49);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(60,1,'',8,50);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(61,2,'cuillères',8,44);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(61,2,'cuillères à soupe',8,44);
 
 
