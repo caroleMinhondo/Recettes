@@ -101,12 +101,12 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(5,1,'',1,4);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(6,1,'',1,14);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(7,1,'',1,20);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(8,1,'',1,25);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(9,1,'',1,25);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(10,350,'grammes de ',2,22);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(11,350,'grammes de ',2,2);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(12,350,'grammes de ',2,14);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(13,350,'grammes de ',2,3);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(8,1,'',1,31);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(9,1,'',1,32);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(10,350,'grammes',2,22);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(11,350,'grammes',2,2);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(12,350,'grammes',2,14);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(13,350,'grammes',2,3);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(14,3,'litres ',2,51);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(15,0,'',2,33);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(16,0,'',2,34);
@@ -116,7 +116,7 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(20,1,'',3,14);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(21,5,'',3,35);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(22,0,'',3,36);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(23,4,'morceaux de ',3,37);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(23,4,'morceaux',3,37);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(24,0,'',3,38);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(25,0,'',3,39);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(26,10,'cl',3,40);
@@ -133,11 +133,14 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(37,0,'',4,35);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(38,0,'',4,33);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(39,0,'',4,34);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(39,0,'',4,41);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(39,0,'',4,42);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(39,0,'',4,43);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(40,3,'',5,22);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(41,3,'',5,25);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(42,1,'',5,16);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(43,1,'',5,2);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(44,2,'cuillères ',5,44);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(44,2,'cuillères',5,44);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(45,1,'',6,7);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(46,1,'',6,8);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(47,1,'',6,18);
@@ -146,9 +149,9 @@ INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALU
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(50,1,'',8,47);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(51,3,'',8,48);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(52,1,'',8,21);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(53,60,'grammes de ',8,37);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(54,120,'grammes de ',8,49);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(53,60,'grammes',8,37);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(54,120,'grammes',8,49);
 INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(55,1,'',8,50);
-INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(56,2,'cuillères ',8,44);
+INSERT INTO Quantite_Ingredient(id,quantite,unite,recette_id,ingredient_id) VALUES(56,2,'cuillères',8,44);
 
 
