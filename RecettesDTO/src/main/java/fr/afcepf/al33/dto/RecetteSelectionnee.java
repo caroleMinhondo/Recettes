@@ -74,6 +74,5 @@ public class RecetteSelectionnee implements Serializable{
 				+ IngredientSelectionnees + ", EtapeRecetteSelectionnees=" + EtapeRecetteSelectionnees + "]";
 	}
 
-	
-	
+		
 }
