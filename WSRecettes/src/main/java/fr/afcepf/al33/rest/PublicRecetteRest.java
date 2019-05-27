@@ -3,6 +3,7 @@ package fr.afcepf.al33.rest;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.ResourceBundle;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -144,8 +145,14 @@ public class PublicRecetteRest
 				IngredientSelectionnees.add(ingredientSelectionnee);
 			}
 			
+			
+			// récupération de l'URL de l'emplacement des images pour concaténer avec le nom de l'image
+			ResourceBundle ressources = ResourceBundle.getBundle("application") ; // accès à application.properties 
+			String urlImage = ressources.getString("urlImages");  
+			urlImage = urlImage + rec.getPhoto();
+			
 			//création d'un objet RecetteSelectionne
-			recetteSelectionnees.add(new RecetteSelectionnee(rec.getId(),rec.getNom(), rec.getPhoto(), IngredientSelectionnees, EtapeRecetteSelectionnees));
+			recetteSelectionnees.add(new RecetteSelectionnee(rec.getId(),rec.getNom(), urlImage, IngredientSelectionnees, EtapeRecetteSelectionnees));
 			
 			
 		}
